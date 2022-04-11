@@ -13,7 +13,7 @@ def autodownload():
             print("file deleted")
             print("sleeping for 5 sec")
             time.sleep(5)
-            count++;
+            count = count+1;
             print("Total number of Count"+str(count));
             
 autodownload()
