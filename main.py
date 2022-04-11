@@ -1,7 +1,9 @@
 import wget
 import time
 import os
-count;
+
+
+count=0;
 def autodownload():
      global count;
      while 1:
